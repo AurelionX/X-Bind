@@ -1,0 +1,23 @@
+<resources>
+
+    <attr name="clickAction" format="reference"/>
+    <attr name="clickRunnable" format="reference"/>
+    <attr name="throttleFirst" format="integer"/>
+
+    <attr name="longClickAction" format="reference"/>
+    <attr name="longClickRunnable" format="reference"/>
+
+    <declare-styleable name="View">
+        <attr name="clickAction"/>
+        <attr name="clickRunnable"/>
+        <attr name="throttleFirst"/>
+
+        <attr name="longClickAction"/>
+        <attr name="longClickRunnable"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckBox">
+        <attr name="changeChecked" format="reference"/>
+    </declare-styleable>
+
+</resources>
